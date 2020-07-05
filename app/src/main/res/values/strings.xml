@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GithubFinder</string>
+    <string name="loading_image">loading</string>
+</resources>

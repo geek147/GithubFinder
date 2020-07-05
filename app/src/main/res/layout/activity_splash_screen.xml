@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/github_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_supported_by"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/tv_app_name"
+        android:layout_height="wrap_content" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:text="Powered by"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:id="@+id/tv_supported_by"
+        android:layout_below="@+id/tv_app_name"
+
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
